@@ -1,0 +1,61 @@
+.sidebar {
+  min-width: 265px;
+  background-color: #2a2a2a;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0;
+  gap: 40px;
+}
+
+.sidebar_logo {
+  padding: 0 0 0 30px;
+}
+
+.sidebar_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar_menu > div {
+  color: #fff;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.select {
+  opacity: 0;
+  width: 4px;
+  border-radius: 0 20px 20px 0;
+  background-color: #ed5964;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  transition: opacity 0.2s linear;
+}
+.sidebar_menu > div:hover {
+  color: #ed5964;
+}
+.sidebar_menu > div:hover > .select {
+  opacity: 1;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.active > span {
+  color: #868686;
+  font-weight: bold;
+}
+
+.active > select {
+  color: #ed5964;
+  opacity: 1;
+}

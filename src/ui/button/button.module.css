@@ -1,0 +1,25 @@
+.button {
+  font-family: "Manrope";
+  font-size: 15px;
+  align-self: center;
+  border-radius: 20px;
+  width: 295px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #ed5964;
+  
+}
+
+.second {
+  background-color:transparent;
+  color: #0B0B0B;
+  border: solid #0B0B0B 1px;
+}

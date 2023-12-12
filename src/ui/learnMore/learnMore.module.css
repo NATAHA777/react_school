@@ -1,0 +1,17 @@
+.learn_more {
+  color: #ed5964;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: 0px 30px 15px 30px;
+  text-decoration: none;
+}
+
+.learn_more:hover {
+  color: #868686;
+}
+
+.img {
+  width: 16px;
+  height: 16px;
+}

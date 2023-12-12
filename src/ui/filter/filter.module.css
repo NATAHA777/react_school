@@ -1,0 +1,10 @@
+.filter{
+    background-color: white;
+    color: #0B0B0B;
+    font-family: Manrope;
+    font-size: 15px;
+    border: solid #2A2A2A 1px;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
