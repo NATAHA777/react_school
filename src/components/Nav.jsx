@@ -7,15 +7,15 @@ export default function Nav() {
   const { pathname } = useLocation();
 
   return (
-    <div className="sm:w-64 lg:w-68 flex flex-col gap-2 border-2 bg-zinc-800 rounded-r-2xl h-screen border-none pt-5">
+    <div className="min-w-[265px] flex flex-col gap-2 border-2 bg-zinc-800 rounded-r-2xl h-screen border-none pt-5">
       <ReactSVG
         src="external/logo.svg"
         style={{ paddingLeft: 28, paddingBottom: 12 }}
       />
       <NavMenuItem 
         icon={<ReactSVG src="external/main.svg" />}
-        to="/"
-        active={pathname.includes("/")}>
+        to="main"
+        active={pathname.includes("main")}>
         Главная
       </NavMenuItem>
       <NavMenuItem

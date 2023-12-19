@@ -1,7 +1,6 @@
 import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Workarea from "./components/workarea/Workarea";
-import Main from "./components/main/Main";
 import Button from "./ui/button/Button";
 import Card from "./ui/card/Card";
 import Typography from "./ui/typography/Typography";
